@@ -89,3 +89,12 @@
 .item.active .title {
     animation: toActive 0.5s ease-in-out 1;
 }
+
+@media (max-width: 600px) {
+    .item .title {
+        font-size: 5rem;
+    }
+    .item .milk {
+        width: 250px;
+    }
+}
