@@ -61,6 +61,12 @@
     border-radius: 50%;
 }
 
+#prev:hover , #next:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
 #prev {
     left: 30px
 }
